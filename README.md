@@ -18,7 +18,7 @@ hera is a Blockchain using the highly-secure and power-efficient NIST5 algorithm
 <tr> <td>Retarget</td><td>Every Block</td></tr>
 <tr> <td>Lightning Network</td><td>Yes</td></tr>
 <tr> <td>Atomic Swap</td><td>Yes (Barterdex)</td></tr>
-<tr> <td>Premine</td><td>10%</td></tr>
+<tr> <td>Premine</td><td>20%</td></tr>
 <tr> <td>Foundation</td><td>Yes</td></tr>
 </table>
 
