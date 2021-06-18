@@ -1,0 +1,26 @@
+[Unit]
+Description=hera's distributed currency daemon
+After=network.target
+
+[Service]
+User=hera
+Group=hera
+
+Type=forking
+PIDFile=/var/lib/herad/herad.pid
+
+ExecStart=/usr/bin/herad -daemon -pid=/var/lib/herad/herad.pid \
+          -conf=/etc/hera/hera.conf -datadir=/var/lib/herad
+
+ExecStop=-/usr/bin/hera-cli -conf=/etc/hera/hera.conf \
+         -datadir=/var/lib/herad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

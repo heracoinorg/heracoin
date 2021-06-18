@@ -1,0 +1,26 @@
+# /etc/conf.d/herad: config file for /etc/init.d/herad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/hera/hera.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/herad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/herad.pid"
+
+# Where to write herad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/herad"
+
+# User and group to own herad process
+#BITCOIND_USER="hera"
+#BITCOIND_GROUP="hera"
+
+# Path to herad executable
+#BITCOIND_BIN="/usr/bin/herad"
+
+# Nice value to run herad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
