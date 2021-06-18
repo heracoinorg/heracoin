@@ -3,7 +3,7 @@
  
 
 # What is HERA?
-hera is opensource project. hera is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, hera coin (hera) is unique in its distribution. 
+Heracoin is opensource project. hera is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, hera coin (hera) is unique in its distribution. 
 
 <a name="specifications"></a>
 ## Technical Specifications
