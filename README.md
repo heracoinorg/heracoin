@@ -19,7 +19,6 @@ Heracoin is opensource project. hera is a Blockchain using the highly-secure and
 <tr> <td>Lightning Network</td><td>Yes</td></tr>
 <tr> <td>Atomic Swap</td><td>Yes (Barterdex)</td></tr>
 <tr> <td>Premine</td><td>20%</td></tr>
-<tr> <td>Foundation</td><td></td></tr>
 </table>
 
 ## Work in progress
