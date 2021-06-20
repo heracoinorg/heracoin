@@ -26,15 +26,14 @@ Drag hera-Qt to your applications folder, and then run hera-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Heracoin Wiki](http://hera.wiki) ***TODO***
 for help and more information.
-* Ask for help on our [Website](https://www.heraproject.org/help-support/) or on help-support channel in [Discord](http://discordapp.com/invite/B8F7Jdv).
-* Join our Discord server [Discord Server](http://discordapp.com/invite/B8F7Jdv)
+* Ask for help on our [Website](https://www.heracoin.org) or on help-support channel in [Discord](http://discordapp.com/invite/B8F7Jdv).
 * Join our Telegram group [Telegram](http://t.me/heracoin )
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1848351.0)
+* Discuss on the [BitcoinTalk](https://bitcointalk.org)
 
 ### Miscellaneous
 
