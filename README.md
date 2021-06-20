@@ -4,6 +4,7 @@ Heracoin is opensource project. hera is a Blockchain using the highly-secure and
 <a name="specifications"></a>
 ## Technical Specifications
 <table>
+<tr> <td>NAME</td><td>HERACOIN</td></tr>
 <tr> <td>Ticker</td><td>HERA</td></tr>
 <tr> <td>Algorithm</td><td>NIST5/SHA-256</td></tr>
 <tr> <td>Consensus</td><td>Proof-of-Work</td></tr>
