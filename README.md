@@ -12,13 +12,14 @@ Heracoin is opensource project. hera is a Blockchain using the highly-secure and
 <tr> <td>Algorithm</td><td>NIST5/SHA-256</td></tr>
 <tr> <td>Consensus</td><td>Proof-of-Work</td></tr>
 <tr> <td>Maximum Supply</td><td>84,000,000 </td></tr>
-<tr> <td>Block Time</td><td>60 Seconds</td></tr>
+<tr> <td>Block Time</td><td>150 Seconds</td></tr>
 <tr> <td>Block Size</td><td>10 MB</td></tr>
 <tr> <td>Transactions Per Second</td><td>~800</td></tr>
 <tr> <td>Retarget</td><td>Every Block</td></tr>
 <tr> <td>Lightning Network</td><td>Yes</td></tr>
 <tr> <td>Atomic Swap</td><td>Yes (Barterdex)</td></tr>
 <tr> <td>Premine</td><td>20%</td></tr>
+<tr> <td>Start Development</td><td>2017</td></tr>
 </table>
 
 ## Work in progress
