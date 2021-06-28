@@ -19,7 +19,7 @@ Heracoin is opensource project. And hera is a Blockchain using the highly-secure
 <tr> <td>Atomic Swap</td><td>Yes (Barterdex)</td></tr>
 <tr> <td>Premine</td><td>20%</td></tr>
 <tr> <td>Start Development</td><td>2017</td></tr>
-<tr> <td>Core Developer</td><td>Jonas Smedegaard, Micah Anderson</td></tr>
+<tr> <td>Core Developer</td><td>Heracoin Core Development Team</td></tr>
 </table>
 
 ## Work in progress
