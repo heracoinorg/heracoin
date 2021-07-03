@@ -1,4 +1,22 @@
 # What is HERA BLCOKCHAIN?
+
+##  Introduction 
+
+Bitcoin is gold, Light Coin is silver, and Heracoin is bronze. Heracoin is a digital asset built on Bitcoin that uses almost the same algorithm as Bitcoin in terms of technology. Heracoin is actually a derivative of Bitcoin. However, Heracoin's goal is to make up for Bitcoin's shortcomings and become a better digital asset. For example, Heracoin not only ran SegWit, but is also developing a lighting network based on it.​
+
+## Coin Features  
+Hera Coin is similar to Bitcoin, but there are three major differences.  
+
+1. Unlike Bitcoin, where Segbit is still in progress, Heracoin successfully executed it in 2018. Segwit is a technology that improves the signature part of the protocol, resulting in the same effect as expanding to 4MB without increasing the block size.Heracoin has already been resolved even before the scaling issue, which can only be structurally raised when the volume of transactions increases.Also, SegWit's fast execution is receiving positive reviews in that it can promote the development of new technologies.​ ​   
+
+2. The coin generation cycle has been reduced to a quarter of Bitcoin, speeding up transactions, and currency issuance is four times that of Bitcoin.
+  
+3. The cryptographic hash function is different from Bitcoin.Bitcoin uses SHA-256 hashing algorithm, which can be applied to mining equipment called ASIC, which has increased difficulty and increased entry barriers for mining.To prevent this concentration of mining power, Heracoin uses an algorithm called ASIC-Resistant Script (Script).It can be easily mined by the general public.
+
+## Core Value(Keyword: Transaction Speed)  
+Heracoin generation cycle from 10 minutes to 2.5 minutes.
+The transaction takes place about four times faster than Bitcoin by reducing it to five minutes. Furthermore, we are developing a lighting network that can be run based on SegWit, which, if completed and introduced, can speed up transactions by 1 million times faster than the current speed.​
+
 Heracoin is opensource project. And hera is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, hera coin (hera) is unique in its distribution. 
 
 <a name="specifications"></a>
@@ -26,8 +44,6 @@ Heracoin is opensource project. And hera is a Blockchain using the highly-secure
 <table>
 <tr> <td>SegWit</td></tr>
 </table>
-
-
 
 
 ## Our Mission
