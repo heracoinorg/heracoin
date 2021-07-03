@@ -40,11 +40,6 @@ Heracoin is opensource project. And hera is a Blockchain using the highly-secure
 <tr> <td>Core Developer</td><td>Heracoin Core Development Team</td></tr>
 </table>
 
-## Work in progress
-<table>
-<tr> <td>SegWit</td></tr>
-</table>
-
 
 ## Our Mission
 Leverage Blockchain technology and provide users with fast and secure transactions.
