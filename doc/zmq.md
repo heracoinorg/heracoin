@@ -47,7 +47,7 @@ By default, the ZMQ feature is automatically compiled in if the
 necessary prerequisites are found.  To disable, use --disable-zmq
 during the *configure* step of building Zd:
 
-    $ ./configure --disable-hmq (other options)
+    $ ./configure --disable-zmq (other options)
 
 To actually enable operation, one must set the appropriate options on
 the commandline or in the configuration file.
@@ -56,24 +56,24 @@ the commandline or in the configuration file.
 
 Currently, the following notifications are supported:
 
-    -hmqpubhashtx=address
-    -hmqpubhashtxlock=address
-    -hmqpubhashblock=address
-    -hmqpubrawblock=address
-    -hmqpubrawtx=address
-    -hmqpubrawtxlock=address
+    -zmqpubhashtx=address
+    -zmqpubhashtxlock=address
+    -zmqpubhashblock=address
+    -zmqpubrawblock=address
+    -zmqpubrawtx=address
+    -zmqpubrawtxlock=address
 
 The socket type is PUB and the address must be a valid ZMQ socket
 address. The same address can be used in more than one notification.
 
 For instance:
 
-    $ Zd -hmqpubhashtx=tcp://127.0.0.1:28332 \
-               -hmqpubrawtx=ipc:///tmp/Zd.tx.raw
+    $ Zd -zmqpubhashtx=tcp://127.0.0.1:28332 \
+               -zmqpubrawtx=ipc:///tmp/Zd.tx.raw
 
 Each PUB notification has a topic and body, where the header
 corresponds to the notification type. For instance, for the
-notification `-hmqpubhashtx` the topic is `hashtx` (no null
+notification `-zmqpubhashtx` the topic is `hashtx` (no null
 terminator) and the body is the hexadecimal transaction hash (32
 bytes).
 
@@ -83,9 +83,9 @@ ZMQ endpoint specifiers for TCP (and others) are documented in the
 [ZMQ API](http://api.zmq.org/4-0:_start).
 
 Client side, then, the ZeroMQ subscriber socket must have the
-HMQ_SUBSCRIBE option set to one or either of these prefixes (for
+zmq_SUBSCRIBE option set to one or either of these prefixes (for
 instance, just `hash`); without doing so will result in no messages
-arriving. Please see `contrib/hmq/hmq_sub.py` for a working example.
+arriving. Please see `contrib/zmq/zmq_sub.py` for a working example.
 
 ## Remarks
 
