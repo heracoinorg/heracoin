@@ -1,0 +1,76 @@
+﻿The block explorer provides an API allowing users and/or applications to retrieve information from the network without the need for a local wallet.
+
+API Calls
+Return data from coind
+
+getdifficulty
+Returns the current difficulty.
+127.0.0.1:3001/api/getdifficulty
+
+getconnectioncount
+Returns the number of connections the block explorer has to other nodes.
+127.0.0.1:3001/api/getconnectioncount
+
+getblockcount
+Returns the current block index.
+127.0.0.1:3001/api/getblockcount
+
+getblockhash [index]
+Returns the hash of the block at ; index 0 is the genesis block.
+127.0.0.1:3001/api/getblockhash?index=1337
+
+getblock [hash]
+Returns information about the block with the given hash.
+127.0.0.1:3001/api/getblock?hash=1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1
+
+getrawtransaction [txid] [decrypt]
+Returns raw transaction representation for given transaction id. decrypt can be set to 0(false) or 1(true).
+127.0.0.1:3001/api/getrawtransaction?txid=f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e&decrypt=0
+127.0.0.1:3001/api/getrawtransaction?txid=f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e&decrypt=1
+
+getnetworkhashps
+Returns the current network hashrate. (hash/s)
+127.0.0.1:3001/api/getnetworkhashps
+
+Extended API
+Return data from local indexes
+
+getmoneysupply
+Returns current money supply
+127.0.0.1:3001/ext/getmoneysupply
+
+getdistribution
+Returns wealth distribution stats
+127.0.0.1:3001/ext/getdistribution
+
+getaddress (/ext/getaddress/hash)
+Returns information for given address
+127.0.0.1:3001/ext/getaddress/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb
+
+gettx (/ext/gettx/hash)
+Returns information for given tx hash
+127.0.0.1:3001/ext/gettx/f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e
+
+getbalance (/ext/getbalance/hash)
+Returns current balance of given address
+127.0.0.1:3001/ext/getbalance/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb
+
+getlasttxsajax (/ext/getlasttxsajax/min)
+Returns last transactions greater than [min]
+Note: returned values are in satoshis
+127.0.0.1:3001/ext/getlasttxsajax/100
+
+Linking (GET)
+Linking to the block explorer
+
+transaction (/tx/txid)
+127.0.0.1:3001/tx/f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e
+
+block (/block/hash)
+127.0.0.1:3001/block/1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1
+
+address (/address/hash)
+127.0.0.1:3001/address/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb
+
+qrcode (/qr/hash)
+127.0.0.1:3001/qr/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb
